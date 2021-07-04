@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px
     }
+    h2{
+        font-size: 40px;
+    }
 .name-color{
     color: #333399;
 }
@@ -35,4 +38,36 @@ margin-bottom: 100px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid 
+}
+#web-dev-experience{
+    border-left: 8px solid;
+    border-image: linear-gradient(#114fd3, #333399);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center
+}
+#footer{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: grey;
 }
