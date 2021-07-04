@@ -20,7 +20,7 @@ margin-bottom: 100px;
     padding-left: 7%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .link-button{
     font-weight:600 ;
@@ -69,5 +69,8 @@ footer p{
 #footer{
     font-family: 'Montserrat';
     font-weight: 500;
+    color: grey;
+}
+#middle{
     color: grey;
 }
