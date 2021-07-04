@@ -8,8 +8,9 @@ h1{
 .name-color{
     color: #333399;
 }
-section{display: flex;
-        margin-bottom: 100px;
+.flexible-container
+{display: flex;
+margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
